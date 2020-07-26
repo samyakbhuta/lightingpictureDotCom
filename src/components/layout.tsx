@@ -251,10 +251,19 @@ const Layout = ({ children, color }: LayoutProps) => {
           </SideBarInner>
           <Main>{children}</Main>
           <Footer color={color}>
-            <Box p={[6, 6, 8]} fontSize={0}>
-              Starter by <a href="https://www.lekoarts.de/en">LekoArts</a>.<br />
-              <a href="https://github.com/LekoArts/gatsby-starter-portfolio-jodie">Source</a>.
-            </Box>
+            <p>
+              <ul>
+                <li>
+                  Call me on <a href="tel:+918460404349">+91 8460 40 43 49</a>
+                </li>
+                <li>
+                  Send me a mail at <a href="mailto:lightingpictures1@gmail.com">lightingpictures1@gmail.com</a>
+                </li>
+                <li>
+                  Send a message on my <a href="https://api.whatsapp.com/send?phone=918460404349">WhatsApp</a>
+                </li>
+              </ul>
+            </p>
           </Footer>
         </Wrapper>
       </>
